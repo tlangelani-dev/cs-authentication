@@ -27,7 +27,7 @@ $container['view'] = function($container) {
 };
 
 $container['HomeController'] = function($container) {
-    return new \Spree\Controllers\HomeController;
+    return new \Spree\Controllers\HomeController($container);
 };
 
 require __DIR__.'/../app/routes.php';

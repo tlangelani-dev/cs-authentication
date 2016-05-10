@@ -2,10 +2,10 @@
 
 namespace Spree\Controllers;
 
-class HomeController
+class HomeController extends Controller
 {
     public function index($request, $response)
     {
-        return 'Home Controller!';
+        return $this->view->render($response, 'home.twig');
     }
 }
