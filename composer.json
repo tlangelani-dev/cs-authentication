@@ -5,7 +5,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spree\\": "app"
+            "Spree\\": "app/"
         }
     }
 }
